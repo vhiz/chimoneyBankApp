@@ -7,7 +7,7 @@ export default function Info() {
     <div className="stats bg-base-200 w-full animate-fadeInRight">
       <div className="stat">
         <div className="stat-title">Account balance</div>
-        <div className="stat-value text-3xl font-bold">
+        <div className="text-xl lg:text-3xl font-bold">
           ${addCommas(userInfo.balance)}
         </div>
         <div className="stat-actions">
@@ -19,7 +19,7 @@ export default function Info() {
 
       <div className="stat">
         <div className="stat-title">Current balance</div>
-        <div className="stat-value text-3xl font-bold">
+        <div className="text-xl lg:text-3xl font-bold">
           ${addCommas(userInfo.balance)}
         </div>
         <div className="flex gap-2">

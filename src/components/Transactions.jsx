@@ -1,5 +1,4 @@
 import { GiPayMoney, GiReceiveMoney } from "react-icons/gi";
-import { IoFilterOutline } from "react-icons/io5";
 import AllTransactions from "./AllTransactions";
 import { useQuery } from "@tanstack/react-query";
 import apiRequest from "../axios";
@@ -80,38 +79,7 @@ export default function Transactions() {
                     </p>
                   </div>
                 </div>
-                <div className="dropdown dropdown-end">
-                  <div
-                    tabIndex={0}
-                    role="button"
-                    className="btn btn-ghost rounded-md"
-                  >
-                    <IoFilterOutline />
-                  </div>
-                  <ul
-                    tabIndex={0}
-                    className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
-                  >
-                    <li>
-                      <span className="btn mt-2 btn-sm btn-outline">clear</span>
-                    </li>
-                    <li>
-                      <span className="btn mt-2 btn-sm btn-success btn-outline">
-                        success
-                      </span>
-                    </li>
-                    <li>
-                      <span className="btn mt-2 btn-sm btn-warning btn-outline">
-                        pending
-                      </span>
-                    </li>
-                    <li>
-                      <span className="btn mt-2 btn-sm btn-error btn-outline">
-                        failed
-                      </span>
-                    </li>
-                  </ul>
-                </div>
+                
               </div>
               <div className="overflow-x-auto">
                 <table className="table table-sm lg:table-md">

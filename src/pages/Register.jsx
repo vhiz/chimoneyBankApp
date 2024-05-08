@@ -78,7 +78,7 @@ export default function Register() {
 
   return (
     <div className="w-screen h-screen flex items-center justify-center hero bg-[url('https://i.pinimg.com/originals/aa/79/89/aa7989193c55e35937d16bd446d4c7fb.jpg')] text-neutral-content">
-      <div className="hero rounded-md lg:w-[70vw] glass animate-bounceIn">
+      <div className="hero rounded-md w-full lg:w-[70vw] glass animate-bounceIn overflow-hidden">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="text-center lg:text-left">
             <h1 className="text-5xl font-bold">Register</h1>
@@ -88,11 +88,8 @@ export default function Register() {
               et a id nisi.
             </p>
           </div>
-          <div
-            className="card shrink-0 w-full max-w-sm shadow-2xl glass text-error-content"
-            onSubmit={handleRegister}
-          >
-            <form className="card-body">
+          <div className="card shrink-0 w-full max-w-sm shadow-2xl glass text-error-content">
+            <form className="card-body" onSubmit={handleRegister}>
               <div className="form-control">
                 <label className="label">
                   <span className="label-text">Email</span>

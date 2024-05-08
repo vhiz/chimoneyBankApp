@@ -35,7 +35,7 @@ export default function Login() {
   }
   return (
     <div className="w-screen h-screen flex items-center justify-center hero bg-[url('https://i.pinimg.com/originals/aa/79/89/aa7989193c55e35937d16bd446d4c7fb.jpg')] text-neutral-content">
-      <div className="hero rounded-md lg:w-[70vw] lg:h-[70vh] glass animate-bounceIn">
+      <div className="hero rounded-md w-full h-full lg:w-[70vw] lg:h-[70vh] glass animate-bounceIn">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="text-center lg:text-left">
             <h1 className="text-5xl font-bold">Login now!</h1>

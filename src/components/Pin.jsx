@@ -92,7 +92,7 @@ export default function Pin() {
               <FaUnlockKeyhole className="opacity-70 w-4 h-4" />
               <input
                 type={password ? "text" : "password"}
-                placeholder="Type here"
+                placeholder="Enter Pin"
                 className="grow"
                 name="password"
                 required
