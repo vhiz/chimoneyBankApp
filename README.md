@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img src="https://firebasestorage.googleapis.com/v0/b/bank-app-662c8.appspot.com/o/Chimoney.png?alt=media&token=300712b1-609a-4ac6-86b2-93f916ce442b" alt="Project logo"></a>
+ <img src="https://firebasestorage.googleapis.com/v0/b/bank-app-662c8.appspot.com/o/dashboard.png?alt=media&token=9fae8d24-666e-4230-8ee7-36c15daecc71" alt="Project logo"></a>
 </p>
 <h3 align="center">ChiMoney</h3>
 
@@ -136,7 +136,7 @@ you'll then login
 <img src="https://firebasestorage.googleapis.com/v0/b/bank-app-662c8.appspot.com/o/login.png?alt=media&token=072aa370-1926-448d-b898-373ff470f1b5" alt="Login page"></a>
 
 after login you'll be directed to the dashboard
-<img src="https://firebasestorage.googleapis.com/v0/b/bank-app-662c8.appspot.com/o/Chimoney.png?alt=media&token=300712b1-609a-4ac6-86b2-93f916ce442b" alt="Dashboard"></a>
+<img src="https://firebasestorage.googleapis.com/v0/b/bank-app-662c8.appspot.com/o/dashboard.png?alt=media&token=9fae8d24-666e-4230-8ee7-36c15daecc71" alt="Dashboard"></a>
 
 before making any transaction you are required to set transaction pin
 <img src="https://firebasestorage.googleapis.com/v0/b/bank-app-662c8.appspot.com/o/setpin.png?alt=media&token=ba36ee37-a1fa-4257-ba1b-6c37f675e52f" alt="Dashboard"></a>

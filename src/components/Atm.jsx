@@ -7,7 +7,7 @@ export default function Atm() {
   return (
     <div className="p-2 flex flex-col gap-y-2 text-white">
       <h2 className="lg:text-2xl text-lg">My Card</h2>
-      <div className="lg:w-[35vw] lg:h-[30vh] h-[25vh] bg-neutral rounded-md p-5 bg-gradient-to-tr from-red-500 to-slate-600 relative">
+      <div className="lg:w-[35vw] lg:h-[30vh] h-[25vh] bg-neutral rounded-md p-5 heropattern-topography-slate-600 relative">
         <div className="h-full flex flex-col justify-between">
           <div className="flex flex-col">
             <span className="font-thin text-sm">Name</span>

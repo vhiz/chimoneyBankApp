@@ -6,7 +6,7 @@ export default withAnimations({
     extend: {},
   },
   // eslint-disable-next-line no-undef
-  plugins: [require("daisyui")],
+  plugins: [require("daisyui"), require("tailwindcss-hero-patterns")],
   daisyui: {
     themes: ["bumblebee", "business"],
   },
