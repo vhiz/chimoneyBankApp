@@ -47,11 +47,11 @@ The goal is to develop a React application featuring a user-friendly dashboard f
 
 ## ⛓️ Dependencies / Limitations <a name = "limitations"></a>
 
-This project utilizes a Firestore database in conjunction with the Chimoney API and a React application for the client side. However, navigating the Chimoney API documentation proved challenging due to the lack of clear instructions.
+This project utilizes a Firestore database in conjunction with the Chimoney API and a React application for the client side. However, navigating the Chimoney API documentation proved challenging due to the lack of clear instructions. And at a point in development i noticed that the output data changed when calling the get user endpoint that took some time to figure out, Cause i was using the wallet balance with type:`chi`.
 
 ## 🚀 Future Scope <a name = "future_scope"></a>
 
-I had considered incorporating a customer care feature, but implementing this would necessitate the use of websockets. Unfortunately, the free tier backend services do not support websockets. However, this feature can be integrated at a later stage.
+I had considered incorporating a customer care feature, but implementing this would necessitate the use of websockets. Unfortunately, the free tier backend services do not support websockets. However, this feature can be integrated at a later stage. and also adding a save feature where user can set how many percent they would liked saved every given month.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
@@ -112,7 +112,7 @@ http://localhost:5173
 if you don't want to start a development server you can go to the live server
 
 
-See [demo](http://)
+See [demo](https://chimoney-bank-app.vercel.app/)
 
 
 and you can use the following credentials for testing both for the live and local server
