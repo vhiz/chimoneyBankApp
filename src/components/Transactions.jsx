@@ -31,7 +31,7 @@ export default function Transactions() {
       }
     });
 
-    return { income:addCommas(income), outcome:addCommas(outcome) };
+    return { income: addCommas(income), outcome: addCommas(outcome) };
   };
   return (
     <div className="mt-9 animate-fadeInUp animate-delay-[1.2s]">
@@ -52,7 +52,7 @@ export default function Transactions() {
         </div>
       ) : (
         <div className="bg-base-200 shadow-md w-full p-3">
-          {data.length < 1 ? (
+          {data && data.length < 1 ? (
             <div className="w-full h-[40vh]  items-center justify-center">
               <img
                 src="/noTransaction.png"
@@ -79,7 +79,6 @@ export default function Transactions() {
                     </p>
                   </div>
                 </div>
-                
               </div>
               <div className="overflow-x-auto">
                 <table className="table table-sm lg:table-md">
