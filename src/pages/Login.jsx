@@ -46,7 +46,7 @@ export default function Login() {
             </p>
           </div>
           <div className="card shrink-0 w-full max-w-sm shadow-2xl glass text-error-content">
-            <form className="card-body" onSubmit={handleSubmit}>
+            <form className="card-body p-4" onSubmit={handleSubmit}>
               <div className="form-control">
                 <label className="label">
                   <span className="label-text">Email</span>
