@@ -2,7 +2,7 @@ import useUserStore from "../store/useUserStore";
 import { addCommas } from "../utils/utils";
 
 export default function Info() {
-  const { currentUser, userInfo } = useUserStore();
+  const { userInfo } = useUserStore();
   return (
     <div className="stats bg-base-200 w-full animate-fadeInRight">
       <div className="stat">
@@ -33,13 +33,13 @@ export default function Info() {
         <div className="stat-figure text-secondary">
           <div className="avatar online">
             <div className="xl:w-16 w-12 rounded-full">
-              <img src={currentUser.img} />
+              <img src={userInfo.img} />
             </div>
           </div>
         </div>
-        <div className="xl:stat-value font-bold">{currentUser.username}</div>
+        <div className="xl:stat-value font-bold">{userInfo.username}</div>
         <div className="xl:stat-title text-base-content text-wrap text-xs">
-          Welcome <strong>{currentUser?.username.split(" ")[0]}</strong> how can
+          Welcome <strong>{userInfo?.username.split(" ")[0]}</strong> how can
           we help you today
         </div>
       </div>

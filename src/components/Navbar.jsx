@@ -2,9 +2,10 @@ import { CiBellOn, CiSearch } from "react-icons/ci";
 import Toggle from "./Toogle";
 import { auth } from "../lib/firebase";
 import useUserStore from "../store/useUserStore";
+import AddImage from "./AddImage";
 
 export default function Navbar() {
-  const { currentUser, setCurrentUser } = useUserStore();
+  const { userInfo, setCurrentUser } = useUserStore();
 
   return (
     <div className="navbar bg-base-200 sticky top-0 z-50 h-16">
@@ -26,7 +27,7 @@ export default function Navbar() {
             className="btn btn-ghost btn-circle avatar"
           >
             <div className="w-10 rounded-full">
-              <img alt="Tailwind CSS Navbar component" src={currentUser.img} />
+              <img alt="Tailwind CSS Navbar component" src={userInfo.img} />
             </div>
           </div>
           <ul
@@ -34,10 +35,12 @@ export default function Navbar() {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a className="justify-between">
+              <button
+                onClick={() => document.getElementById("addImage").showModal()}
+                className="justify-between"
+              >
                 Profile
-                <span className="badge">New</span>
-              </a>
+              </button>
             </li>
             <li>
               <button
@@ -59,6 +62,12 @@ export default function Navbar() {
           </ul>
         </div>
       </div>
+      <dialog id="addImage" className="modal">
+        <AddImage />
+        <form method="dialog" className="modal-backdrop glass">
+          <button>Esc</button>
+        </form>
+      </dialog>
     </div>
   );
 }

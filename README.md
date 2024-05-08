@@ -111,9 +111,7 @@ http://localhost:5173
 
 if you don't want to start a development server you can go to the live server
 
-
 See [demo](https://chimoney-bank-app.vercel.app/)
-
 
 and you can use the following credentials for testing both for the live and local server
 
@@ -132,7 +130,7 @@ password:123456
 first you have to register and you do that with your email phone password and name
 <img src="https://firebasestorage.googleapis.com/v0/b/bank-app-662c8.appspot.com/o/register.png?alt=media&token=6e904cbc-ee7a-4770-9975-b385211f921b" alt="Register page"></a>
 
-you'll then login 
+you'll then login
 <img src="https://firebasestorage.googleapis.com/v0/b/bank-app-662c8.appspot.com/o/login.png?alt=media&token=072aa370-1926-448d-b898-373ff470f1b5" alt="Login page"></a>
 
 after login you'll be directed to the dashboard
@@ -142,6 +140,13 @@ before making any transaction you are required to set transaction pin
 <img src="https://firebasestorage.googleapis.com/v0/b/bank-app-662c8.appspot.com/o/setpin.png?alt=media&token=ba36ee37-a1fa-4257-ba1b-6c37f675e52f" alt="Dashboard"></a>
 
 after your pin is set you can start transaction.
+
+if you want to logout you can click on the avatar on the navbar and select the logout option
+
+you can also change your transaction pin by click on the settings on the menu
+
+you also have the option to change user profile pic by selecting on the profile of the menu
+<img src="https://firebasestorage.googleapis.com/v0/b/bank-app-662c8.appspot.com/o/addimg.png?alt=media&token=8a2179f1-ac9f-495a-a1b5-a2d66b26bb6f" alt="Dashboard"></a>
 
 ## ⛏️ Built With <a name = "tech_stack"></a>
 
@@ -153,4 +158,3 @@ after your pin is set you can start transaction.
 ## ✍️ Authors <a name = "authors"></a>
 
 - [@victor mgbeahurike](https://github.com/vhiz) - Initial work
-
