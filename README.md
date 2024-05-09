@@ -119,10 +119,12 @@ and you can use the following credentials for testing both for the live and loca
 user1:
 email : vhiz@gmail.com,
 password:123456
+pin:0000
 
 user2:
 email : janet@gmail.com,
 password:123456
+pin:0000
 ```
 
 ## 🎈 Usage <a name="usage"></a>
