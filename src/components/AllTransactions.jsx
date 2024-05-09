@@ -107,7 +107,7 @@ export default function AllTransactions() {
                         )}
                       </td>
                       <td className="text-sm">
-                        {transaction.issuer.slice(0, 5) + "xxxxxxxx"}
+                        {transaction.receiver===userInfo.id?transaction.issuer.slice(0, 5) + "xxxxxxxx": transaction.receiver.slice(0,5)+"xxxxxxxx" }
                       </td>
                       <td
                         className={`text-sm ${
